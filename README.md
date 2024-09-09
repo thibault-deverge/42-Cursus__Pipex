@@ -1,6 +1,6 @@
 # <img src="https://logowik.com/content/uploads/images/423918.logowik.com.webp" style="width: 40px; height: auto;"> This project is part of my cursus at School 42 <img src="https://logowik.com/content/uploads/images/423918.logowik.com.webp" style="width: 40px; height: auto;">
 
-## About This Project
+## 💡 About This Project
 
 Pipex is a project from the 42 curriculum that focuses on recreating the UNIX pipe functionality in C. The goal is to gain a deeper understanding of process communication in a Unix-like environment, using pipes and file redirection.
 
@@ -11,14 +11,14 @@ This project strengthens skills in:
 - Managing processes and file descriptors.
 - Handling errors and memory leaks.
 
-## Requirements
+## 📋 Requirements
 
 - Program must be written in C.
 - Must comply with the 42 School Norm.
 - Handle errors such as segmentation faults, memory leaks, and unexpected program exits.
 - External functions authorized : `open`, `close`, `read`, `write`, `malloc`, `free`, `perror`, `strerror`, `access`, `dup`, `dup2`, `execve`, `exit`, `fork`, `pipe`, `unlink`, `wait`, `waitpid`
 
-## How to use
+## 🛠️ How to use
 
 1. `make bonus`
 2. `./pipex_bonus file1 cmd1 cmd2 ... cmdx file2`
